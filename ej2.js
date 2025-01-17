@@ -10,7 +10,9 @@ Tu nombre
 Tu apellido
 Tu edad
 Tu fecha de nacimiento
-Tu direccion*/
+Tu direccion
+*/
+
 var nombre = 'Catalina';
 var apellido =  'Betancur';
 var edad = 31;
