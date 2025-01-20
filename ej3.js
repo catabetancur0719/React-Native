@@ -14,4 +14,9 @@ Tu fecha de nacimiento
 Tu direccion
 */
 
-var nombre = "Catalina", apellido = "Betancur", edad = 31, fechaDeNacimiento="19-07-1993", direccion = "Medellin, Colombia";
+var nombre, apellido, edad, fechaDeNacimiento, direccion
+nombre = "Catalina"
+apellido = "Betancur"
+edad = 31
+fechaDeNacimiento="19-07-1993"
+direccion = "Medellin, Colombia";
