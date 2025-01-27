@@ -15,13 +15,14 @@
 // **
 // *
 
-let contador = 14
-let asteriscos = 1
-let mensaje = ''
+let contador = 14;
+let mensaje = '';
 
-while(contador >= asteriscos)
-{
-  mensaje -= '*'
-  console.log(mensaje)
-  contador--
+while (contador > 0) {
+
+  mensaje = '*'.repeat(contador);
+  console.log(mensaje);
+  contador--;
 }
+
+
