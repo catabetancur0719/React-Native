@@ -15,13 +15,13 @@
 // **
 // *
 
-let contador = 14;
-let mensaje = '';
+let contador = 14
+let mensaje = ''
 
 while (contador > 0) {
 
-  mensaje = '*'.repeat(contador);
-  console.log(mensaje);
+  mensaje = '*'.repeat(contador)
+  console.log(mensaje)
   contador--;
 }
 

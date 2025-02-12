@@ -8,9 +8,9 @@
 // ***********
 // *************
 
-let contador = 1;
+let contador = 1
 let asteriscos = 13 
-let mensaje = ''; 
+let mensaje = ''
 
 
 while (contador <= 13) {  

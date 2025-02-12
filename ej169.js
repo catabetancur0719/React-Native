@@ -3,16 +3,16 @@
 // Como parte del ejercicio escribe lo que pasa.
 
 function obtenerFuncion() {
-  const nombre = "JavaScript";
+  const nombre = "JavaScript"
 
   function mostrarMensaje() {
-    console.log("Yo <3 " + nombre);
+    console.log("Yo <3 " + nombre)
   }
 
-  mostrarMensaje();
+  mostrarMensaje()
 }
 
-obtenerFuncion();
+obtenerFuncion()
 
 //declaramos la funcion obtener funcion y dentro de esta declarmaos una varibale con valor javascript
 //dentro de esta funcion, declaramos otra funcion llamada mostrar mensaje y la imprimimos en la consola concatenandola con el valor de la variable

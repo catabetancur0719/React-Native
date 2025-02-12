@@ -4,18 +4,18 @@
 
 
 function contar() {
-    let contador = 0;
+    let contador = 0
     return function () {
-      contador++;
-      console.log(contador);
-    };
+      contador++
+      console.log(contador)
+    }
   }
   
-  const incrementar = contar();
-  incrementar();
-  incrementar();
-  incrementar();
-  incrementar();
+  const incrementar = contar()
+  incrementar()
+  incrementar()
+  incrementar()
+  incrementar()
 
 /*declara a funcion contar le agrega una variable que empieza en cero y retorna la funcion, 
 luego el contador suma + 1 y lo imprime en la consaola.

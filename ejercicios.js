@@ -46,3 +46,60 @@ const numerosOrdenadosAsc = numeros.sort(function(primerNumero,segundoNumero)
 const numerosOrdenadosDesc = numerosOrdenadosAsc.reverse()
 
 console.log(numerosOrdenadosDesc)*/
+
+// const saludar = function (nombre, apodo) {
+//     console.log(`hola ${nombre} ${apodo}`);
+//   };
+  
+//   setTimeout(saludar, 5000, "Marta", "Martita");
+
+// funcionQueTardaMuchoTiempoEnResolver(() => {
+//     console.log("fin del proceso largo");
+//   });
+//   console.log("El código sigue ejecutando");
+
+// const promise1 = new Promise((onSuccess) => {
+//     console.log("Promise 1");
+//     setTimeout(onSuccess(10), 2000);
+//   });
+  
+//   const promise2 = new Promise((onSuccess) => {
+//     console.log("Promise 2");
+//     setTimeout(onSuccess, 10000);
+//   });
+  
+//   const promise3 = new Promise((onSuccess) => {
+//     console.log("Promise 3");
+//     setTimeout(onSuccess, 5000);
+//   });
+  
+//   const promises = [promise1, promise2, promise3];
+  
+//   Promise.all(promises).then((values) => {
+//     console.log(values);
+//     console.log("terminaron");
+//   });
+
+
+//NUEVOS ITERADORES
+const animales = ["perro", "gato", "elefante"];
+
+for (const animal of animales) {
+  console.log(animal);
+}
+
+const texto = "Nicolas";
+
+for (const letra of texto) {
+  console.log(letra);
+}
+
+const usuario = {
+  name: "Nicolas",
+  age: 45,
+  city: "Toronto",
+};
+
+for (const key in usuario) {
+  console.log(`${key}: ${usuario[key]}`);
+}

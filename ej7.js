@@ -12,3 +12,9 @@ let apellido = "Betancur";
 let edad = 31;
 let fechaDeNacimiento = "19-07-1993";
 let Dirección = "Medellin, Colombia";
+
+console.log('Nombre:', nombre);
+console.log('Apellido:', apellido);
+console.log('Edad:', edad);
+console.log('Fecha de nacimiento:', fechaDeNacimiento);
+console.log('Dirección:', direccion);
